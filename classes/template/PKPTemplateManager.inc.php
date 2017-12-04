@@ -440,6 +440,7 @@ class PKPTemplateManager extends Smarty {
 		$less = new Less_Parser(array(
 			'relativeUrls' => false,
 			'compress' => true,
+                        'sourceMap' => true,
 		));
 
 		$request = $this->_request;
